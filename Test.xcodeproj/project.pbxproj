@@ -14,6 +14,10 @@
 		025B4E521AF31757007E644C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 025B4E511AF31757007E644C /* Images.xcassets */; };
 		025B4E551AF31757007E644C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025B4E531AF31757007E644C /* LaunchScreen.xib */; };
 		025B4E611AF31757007E644C /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B4E601AF31757007E644C /* TestTests.m */; };
+		545904FEBC5A4BD6B6658CFC /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 54590DD9B48BA6C6A01D498A /* ViewController2.m */; };
+		545906487E879A8E94AF10E7 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5459033E8652DCB2DCBA15DE /* SpriteKit.framework */; };
+		54590AAF6B54AACDEA320626 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 5459011C72AF23216C1CCADC /* ViewController3.m */; };
+		54590CECDF87A46E4186F292 /* FireworksScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 545905C6936F060EE981835D /* FireworksScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,13 @@
 		025B4E5A1AF31757007E644C /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		025B4E5F1AF31757007E644C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		025B4E601AF31757007E644C /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
+		54590078C0A5D92824F1D661 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
+		5459011C72AF23216C1CCADC /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		545902B8A379A08AF28901A3 /* FireworksScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireworksScene.h; sourceTree = "<group>"; };
+		5459033E8652DCB2DCBA15DE /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		545905C6936F060EE981835D /* FireworksScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireworksScene.m; sourceTree = "<group>"; };
+		5459063A0B9DEC18BD0AB9B6 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		54590DD9B48BA6C6A01D498A /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				545906487E879A8E94AF10E7 /* SpriteKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +78,7 @@
 				025B4E431AF31757007E644C /* Test */,
 				025B4E5D1AF31757007E644C /* TestTests */,
 				025B4E421AF31757007E644C /* Products */,
+				545902B07EEF96CBD7D364EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,6 +102,12 @@
 				025B4E511AF31757007E644C /* Images.xcassets */,
 				025B4E531AF31757007E644C /* LaunchScreen.xib */,
 				025B4E441AF31757007E644C /* Supporting Files */,
+				54590DD9B48BA6C6A01D498A /* ViewController2.m */,
+				5459063A0B9DEC18BD0AB9B6 /* ViewController2.h */,
+				5459011C72AF23216C1CCADC /* ViewController3.m */,
+				54590078C0A5D92824F1D661 /* ViewController3.h */,
+				545905C6936F060EE981835D /* FireworksScene.m */,
+				545902B8A379A08AF28901A3 /* FireworksScene.h */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -117,6 +136,14 @@
 				025B4E5F1AF31757007E644C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		545902B07EEF96CBD7D364EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5459033E8652DCB2DCBA15DE /* SpriteKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +249,9 @@
 				025B4E4D1AF31757007E644C /* ViewController.m in Sources */,
 				025B4E4A1AF31757007E644C /* AppDelegate.m in Sources */,
 				025B4E471AF31757007E644C /* main.m in Sources */,
+				545904FEBC5A4BD6B6658CFC /* ViewController2.m in Sources */,
+				54590AAF6B54AACDEA320626 /* ViewController3.m in Sources */,
+				54590CECDF87A46E4186F292 /* FireworksScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="fFX-bs-ffO">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Dhc-uU-rOR">
+            <objects>
+                <navigationController id="fFX-bs-ffO" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Iku-DW-xKw">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="coI-lY-sfm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YIE-jA-PBy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-598" y="300"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is your cool new app" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y2v-Ng-LPS">
+                                <rect key="frame" x="16" y="229" width="288" height="111"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="48"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oRu-Ur-00m">
+                                <rect key="frame" x="16" y="20" width="288" height="548"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.28235294117647058" green="0.59607843137254901" blue="0.80392156862745101" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ZEn-Wr-aMl" kind="show" id="O58-pN-EWA"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="944-walking-man" translatesAutoresizingMaskIntoConstraints="NO" id="4ja-WR-3EU">
+                                <rect key="frame" x="139" y="400" width="42" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="84" id="K72-2x-hlg"/>
+                                    <constraint firstAttribute="width" constant="42" id="yZX-KR-MK2"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.52941176470588236" blue="0.77254901960784317" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="4ja-WR-3EU" firstAttribute="top" secondItem="y2v-Ng-LPS" secondAttribute="bottom" constant="60" id="5HC-OB-Dad"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="y2v-Ng-LPS" secondAttribute="trailing" id="8Tu-hq-tAK"/>
+                            <constraint firstItem="oRu-Ur-00m" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="IIV-1J-2AV"/>
+                            <constraint firstAttribute="centerY" secondItem="y2v-Ng-LPS" secondAttribute="centerY" id="Ksr-j9-N1p"/>
+                            <constraint firstItem="y2v-Ng-LPS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Mje-bP-rdd"/>
+                            <constraint firstAttribute="centerX" secondItem="y2v-Ng-LPS" secondAttribute="centerX" id="NwM-XB-mh7"/>
+                            <constraint firstItem="oRu-Ur-00m" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="QZN-Lt-PnM"/>
+                            <constraint firstItem="oRu-Ur-00m" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="WQp-rv-HfX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="oRu-Ur-00m" secondAttribute="bottom" id="e3F-8D-ufm"/>
+                            <constraint firstAttribute="centerX" secondItem="4ja-WR-3EU" secondAttribute="centerX" id="s6i-uS-s5Z"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="uZ9-K4-O2l"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-160" y="318"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DYe-EB-0XB">
+            <objects>
+                <viewController id="ZEn-Wr-aMl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h7j-An-UGD"/>
+                        <viewControllerLayoutGuide type="bottom" id="YEh-Bf-gQy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aej-D7-Z4o">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="And you shaped it." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gH8-dc-hkO">
+                                <rect key="frame" x="16" y="229" width="288" height="111"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="48"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8k-T1-l9z">
+                                <rect key="frame" x="16" y="20" width="288" height="528"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ncx-eV-AsU" kind="show" id="ES2-dG-eFC"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="943-running-man-white" translatesAutoresizingMaskIntoConstraints="NO" id="egW-Oz-SLC">
+                                <rect key="frame" x="130" y="390" width="60" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="0RV-B5-FFB"/>
+                                    <constraint firstAttribute="height" constant="84" id="ZvT-Gi-xMf"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.9882352941176471" green="0.25882352941176473" blue="0.50588235294117645" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="J8k-T1-l9z" firstAttribute="leading" secondItem="aej-D7-Z4o" secondAttribute="leadingMargin" id="1Jb-Au-eYT"/>
+                            <constraint firstItem="YEh-Bf-gQy" firstAttribute="top" secondItem="J8k-T1-l9z" secondAttribute="bottom" constant="20" id="1Yx-xQ-P97"/>
+                            <constraint firstItem="J8k-T1-l9z" firstAttribute="trailing" secondItem="aej-D7-Z4o" secondAttribute="trailingMargin" id="5s1-fp-2ae"/>
+                            <constraint firstItem="egW-Oz-SLC" firstAttribute="top" secondItem="gH8-dc-hkO" secondAttribute="bottom" constant="50" id="HrX-4J-p9i"/>
+                            <constraint firstItem="gH8-dc-hkO" firstAttribute="trailing" secondItem="aej-D7-Z4o" secondAttribute="trailingMargin" id="MO2-lA-pXL"/>
+                            <constraint firstItem="J8k-T1-l9z" firstAttribute="top" secondItem="h7j-An-UGD" secondAttribute="bottom" id="b1O-wG-i0w"/>
+                            <constraint firstAttribute="centerX" secondItem="egW-Oz-SLC" secondAttribute="centerX" id="dTr-TO-NOG"/>
+                            <constraint firstAttribute="centerY" secondItem="gH8-dc-hkO" secondAttribute="centerY" id="o8T-Up-T39"/>
+                            <constraint firstItem="gH8-dc-hkO" firstAttribute="leading" secondItem="aej-D7-Z4o" secondAttribute="leadingMargin" id="vYA-K0-tbq"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Bty-L8-Pk6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="375" y="318"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="4zJ-T7-KBe">
+            <objects>
+                <viewController id="ncx-eV-AsU" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oun-kr-ZL8"/>
+                        <viewControllerLayoutGuide type="bottom" id="0D8-AR-8s2"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SF6-iR-MKX">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Every step of the way" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l1P-8l-ahN">
+                                <rect key="frame" x="16" y="228" width="288" height="111"/>
+                                <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="48"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="955-trophy" translatesAutoresizingMaskIntoConstraints="NO" id="PXq-MR-NP8">
+                                <rect key="frame" x="118" y="389" width="84" height="84"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="84" id="Hkv-x5-Lbn"/>
+                                    <constraint firstAttribute="height" constant="84" id="mIl-XS-Xc9"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.45882352941176469" blue="0.21568627450980393" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="PXq-MR-NP8" firstAttribute="top" secondItem="l1P-8l-ahN" secondAttribute="bottom" constant="50" id="4jL-Sa-uee"/>
+                            <constraint firstItem="l1P-8l-ahN" firstAttribute="leading" secondItem="SF6-iR-MKX" secondAttribute="leadingMargin" id="B7z-RK-1az"/>
+                            <constraint firstAttribute="centerX" secondItem="PXq-MR-NP8" secondAttribute="centerX" id="Psg-nV-f37"/>
+                            <constraint firstItem="l1P-8l-ahN" firstAttribute="trailing" secondItem="SF6-iR-MKX" secondAttribute="trailingMargin" id="V9e-tw-iDQ"/>
+                            <constraint firstAttribute="centerY" secondItem="l1P-8l-ahN" secondAttribute="centerY" constant="0.5" id="Zdi-qk-SnC"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CyT-Mq-dc5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="858" y="318"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="943-running-man-white" width="20" height="28"/>
+        <image name="944-walking-man" width="14" height="28"/>
+        <image name="955-trophy" width="28" height="28"/>
+    </resources>
+</document>

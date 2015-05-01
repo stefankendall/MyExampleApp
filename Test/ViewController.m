@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *image;
 
 @end
 
@@ -17,7 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self.navigationController setNavigationBarHidden:YES];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    self.image.animationImages = @[
+                                   [UIImage imageNamed:@"944-walking-man"],
+                                                                      [UIImage imageNamed:@"944-walking-man-2"]
+                                   ];
+    self.image.animationDuration = 1;
+    self.image.animationRepeatCount = 0;
+    [self.image startAnimating];
 }
 
 - (void)didReceiveMemoryWarning {

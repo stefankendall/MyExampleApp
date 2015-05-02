@@ -165,7 +165,7 @@
                                 </constraints>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Add-WA-a3b" customClass="SKView">
-                                <rect key="frame" x="16" y="286" width="288" height="95"/>
+                                <rect key="frame" x="16" y="278" width="288" height="111"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
@@ -178,7 +178,7 @@
                             <constraint firstItem="l1P-8l-ahN" firstAttribute="trailing" secondItem="SF6-iR-MKX" secondAttribute="trailingMargin" id="V9e-tw-iDQ"/>
                             <constraint firstAttribute="centerY" secondItem="Add-WA-a3b" secondAttribute="centerY" constant="-49.5" id="Vu2-Yp-amY"/>
                             <constraint firstAttribute="centerY" secondItem="l1P-8l-ahN" secondAttribute="centerY" constant="0.5" id="Zdi-qk-SnC"/>
-                            <constraint firstItem="PXq-MR-NP8" firstAttribute="top" secondItem="Add-WA-a3b" secondAttribute="bottom" constant="8" id="mSl-ad-XHi"/>
+                            <constraint firstItem="PXq-MR-NP8" firstAttribute="top" secondItem="Add-WA-a3b" secondAttribute="bottom" id="mSl-ad-XHi"/>
                             <constraint firstItem="Add-WA-a3b" firstAttribute="leading" secondItem="SF6-iR-MKX" secondAttribute="leadingMargin" id="t5F-rC-apz"/>
                         </constraints>
                     </view>

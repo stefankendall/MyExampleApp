@@ -11,6 +11,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    self.explosionView.allowsTransparency = YES;
     FireworksScene *scene = [[FireworksScene alloc] initWithSize:self.explosionView.frame.size];
     [self.explosionView presentScene:scene];
 }

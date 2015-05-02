@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		024B93851AF441E300935108 /* fireworks.sks in Resources */ = {isa = PBXBuildFile; fileRef = 024B93831AF441E300935108 /* fireworks.sks */; };
+		024B93861AF441E300935108 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 024B93841AF441E300935108 /* spark.png */; };
 		025B4E471AF31757007E644C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B4E461AF31757007E644C /* main.m */; };
 		025B4E4A1AF31757007E644C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B4E491AF31757007E644C /* AppDelegate.m */; };
 		025B4E4D1AF31757007E644C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B4E4C1AF31757007E644C /* ViewController.m */; };
@@ -14,6 +16,7 @@
 		025B4E521AF31757007E644C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 025B4E511AF31757007E644C /* Images.xcassets */; };
 		025B4E551AF31757007E644C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 025B4E531AF31757007E644C /* LaunchScreen.xib */; };
 		025B4E611AF31757007E644C /* TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 025B4E601AF31757007E644C /* TestTests.m */; };
+		545903FB1840E644A826C0B0 /* SKEmitterNode+RCWExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 54590233A6CCDBB216621984 /* SKEmitterNode+RCWExtensions.m */; };
 		545904FEBC5A4BD6B6658CFC /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 54590DD9B48BA6C6A01D498A /* ViewController2.m */; };
 		545906487E879A8E94AF10E7 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5459033E8652DCB2DCBA15DE /* SpriteKit.framework */; };
 		54590AAF6B54AACDEA320626 /* ViewController3.m in Sources */ = {isa = PBXBuildFile; fileRef = 5459011C72AF23216C1CCADC /* ViewController3.m */; };
@@ -31,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		024B93831AF441E300935108 /* fireworks.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = fireworks.sks; sourceTree = "<group>"; };
+		024B93841AF441E300935108 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		025B4E411AF31757007E644C /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		025B4E451AF31757007E644C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		025B4E461AF31757007E644C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -46,9 +51,11 @@
 		025B4E601AF31757007E644C /* TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTests.m; sourceTree = "<group>"; };
 		54590078C0A5D92824F1D661 /* ViewController3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController3.h; sourceTree = "<group>"; };
 		5459011C72AF23216C1CCADC /* ViewController3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController3.m; sourceTree = "<group>"; };
+		54590233A6CCDBB216621984 /* SKEmitterNode+RCWExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SKEmitterNode+RCWExtensions.m"; sourceTree = "<group>"; };
 		545902B8A379A08AF28901A3 /* FireworksScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FireworksScene.h; sourceTree = "<group>"; };
 		5459033E8652DCB2DCBA15DE /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		545905C6936F060EE981835D /* FireworksScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FireworksScene.m; sourceTree = "<group>"; };
+		545906364C97E9885DB6C772 /* SKEmitterNode+RCWExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SKEmitterNode+RCWExtensions.h"; sourceTree = "<group>"; };
 		5459063A0B9DEC18BD0AB9B6 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
 		54590DD9B48BA6C6A01D498A /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +115,10 @@
 				54590078C0A5D92824F1D661 /* ViewController3.h */,
 				545905C6936F060EE981835D /* FireworksScene.m */,
 				545902B8A379A08AF28901A3 /* FireworksScene.h */,
+				545906364C97E9885DB6C772 /* SKEmitterNode+RCWExtensions.h */,
+				54590233A6CCDBB216621984 /* SKEmitterNode+RCWExtensions.m */,
+				024B93831AF441E300935108 /* fireworks.sks */,
+				024B93841AF441E300935108 /* spark.png */,
 			);
 			path = Test;
 			sourceTree = "<group>";
@@ -226,6 +237,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				024B93861AF441E300935108 /* spark.png in Resources */,
+				024B93851AF441E300935108 /* fireworks.sks in Resources */,
 				025B4E501AF31757007E644C /* Main.storyboard in Resources */,
 				025B4E551AF31757007E644C /* LaunchScreen.xib in Resources */,
 				025B4E521AF31757007E644C /* Images.xcassets in Resources */,
@@ -252,6 +265,7 @@
 				545904FEBC5A4BD6B6658CFC /* ViewController2.m in Sources */,
 				54590AAF6B54AACDEA320626 /* ViewController3.m in Sources */,
 				54590CECDF87A46E4186F292 /* FireworksScene.m in Sources */,
+				545903FB1840E644A826C0B0 /* SKEmitterNode+RCWExtensions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,6 +462,7 @@
 				025B4E661AF31757007E644C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		025B4E671AF31757007E644C /* Build configuration list for PBXNativeTarget "TestTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +471,7 @@
 				025B4E691AF31757007E644C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
